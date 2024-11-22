@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    background-color: #ce7c16;
+}
+
+header>img {
+    width: 200px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+/*Classe Biblitoteca Google Icons*/
+.material-symbols-outlined {
+    font-size: 3rem;
+}
+
+#iconeHam,
+#iconeClose {
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    color: #ff0000;
+}
+
+#iconeClose {
+    display: none;
+}
+
+#menu a {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-family: "Kaushan Script", cursive;
+    color: #ff0000;
+    font-size: 1.4rem;
+    background-color: #ce7b1679;
+}
+
+a:hover {
+    color: #ce7c16;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    margin: 1px;
+}
+
+#menu {
+    display: none;
+}
+
+section>h1 {
+    font-family: "Kaushan Script", cursive;
+    color: #000000;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 32px 24px 24px 24px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.texto-principal {
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    font-size: 1.3rem;
+    padding: 0 24px 24px 24px;
+}
+
+.texto-convite {
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    font-size: 1.3rem;
+}
+
+#cards {
+    padding: 32px 24px 24px 24px;
+}
+
+#cards img {
+    border-radius: 10px;
+    width: 100%; 
+    height: auto;
+}
+
+#cards article {
+    background-color: #00000080;
+    padding: 24px;
+    border-radius: 15px;
+    margin-bottom: 32px;
+}
+
+#cards p {
+    margin-top: 16px;
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    font-size: 1.3rem;
+}
+
+#cards h1 {
+    font-family: "Kaushan Script", cursive;
+    color: #000000;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 32px 24px 24px 24px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 24px;
+}
+
+footer img {
+    width: 32px;
+    margin-right: 8px;
+}
+
+footer span {
+    font-family: "Lato", sans-serif;
+    color: #ff0000;
+    font-size: 1.2rem;
+}
+
+footer>div {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+/*SOBRE O OISHI*/
+
+#cards-sobre h1 {
+    font-family: "Kaushan Script", cursive;
+    color: #000000;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 32px 24px 24px 24px;
+}
+
+#cards-sobre p {
+    margin-top: 16px;
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.texto-esquerda {
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    font-size: 1.3rem;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: rgba(249, 249, 249, 0.26);
+}
+
+.texto-direita {
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    font-size: 1.3rem;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: rgba(249, 249, 249, 0.26);
+}
+
+#cards-sobre article {
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-esquerda,
+.texto-direita {
+    flex-direction: column;
+    text-align: center;
+}
+
+.imagem-direita,
+.imagem-esquerda {
+    max-width: 100%; 
+    height: auto;
+}
+
+.texto-esquerda div,
+.texto-direita div {
+    width: 100%;
+}
+
+
+/*AMBIENTE*/
+
+#cards-ambiente {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #ce7b1635;
+    margin: 16px;
+}
+
+
+.texto-esquerda-ambiente,
+.texto-direita-ambiente {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 16px;
+    background-color: #f9f9f942;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+#cards-ambiente h1 {
+    font-family: "Kaushan Script", cursive;
+    color: #000000;
+    font-size: 1.4rem;
+    text-align: left;
+    padding: 32px 24px 24px 24px;
+}
+
+#cards-ambiente p {
+    margin-top: 16px;
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+/*CARDÁPIO*/
+.tabela {
+    display: flex;
+    justify-content: center;
+}
+
+.tabela table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabela table caption {
+    font-family: "Kaushan Script", cursive;
+    color: #000000;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    font-family: "Lato", sans-serif;
+    color: #000000;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+caption {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+tfoot td {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.flip-container {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.flipper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+    /* animação na horizontal*/
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+
+/*LOCALIZAÇÃO*/
+
+main>h1 {
+    font-family: "Kaushan Script", cursive;
+    color: #000000;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 32px 24px 24px 24px;
+    
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.map-container iframe {
+    border: 0;
+}
+
+/*RESERVA*/
+
+.formularioReserva {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.formularioReserva input,
+.formularioReserva textarea {
+    background-color: #00000080;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.botaoReserva {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.botaoReserva:hover {
+    background-color: #ff0000;
+    transform: scale(1.05);
+}
+
+.botaoReserva:active {
+    background-color: #3e8e41;
+    transform: scale(0.95);
+}
+
+fieldset {
+    margin: 30px;
+    padding: 30px;
+    margin-top: 16px;
+    color: #000000;
+    font-size: 1.2rem;
+    align-items: center;
+    background-image: url("../imagens/pratos4.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+main>section>p {
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+/*********************************************************************/
+/*MODO DESKTOP (1024PX)*/
+
+@media(min-width: 1024px) {
+    #cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #cards article {
+        max-width: 300px;
+    }
+
+    #iconeHam,
+    #iconeClose {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #menu {
+        display: block;
+        margin-right: 96px;
+    }
+
+    #menu ul {
+        display: flex;
+    }
+
+    #menu a {
+        background-color: #ffd93000;
+    }
+
+    a:hover {
+        color: #ce7c16;
+        text-shadow: 2px 2px 2px #ce7c16;
+    }
+
+    #menu li {
+        margin-left: 48px;
+    }
+
+    header img {
+        margin-left: 96px;
+    }
+
+    /*SOBRE - CARDS-SOBRE*/
+
+    #cards-sobre {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    #cards-sobre article {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 16px;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        background-color: #f9f9f942;
+    }
+
+    .texto-esquerda {
+        flex-direction: row;
+    }
+
+    .texto-direita {
+        flex-direction: row-reverse;
+    }
+
+    .texto-esquerda div,
+    .texto-direita div {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .imagem-direita,
+    .imagem-esquerda {
+        max-width: 50%;
+        height: auto;
+    }
+
+    #cards-sobre h1 {
+        font-family: "Kaushan Script", cursive;
+        color: #000000;
+        padding: 32px 24px 24px 24px;
+        font-size: 1.4rem;
+        text-align: left;
+    }
+
+    #cards-sobre p {
+        margin-top: 16px;
+        font-family: "Lato", sans-serif;
+        color: #000000;
+        font-size: 1.2rem;
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    /*AMBIENTE*/
+
+    #cards-ambiente {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background-color: #ce7b1635;
+    }
+
+
+    .texto-esquerda-ambiente,
+    .texto-direita-ambiente {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+        padding: 16px;
+        background-color: #f9f9f942;
+        border: 1px solid #000000;
+        border-radius: 8px;
+    }
+
+    .texto-esquerda-ambiente {
+        flex-direction: row;
+    }
+
+    .texto-direita-ambiente {
+        flex-direction: row-reverse;
+    }
+
+    .texto-esquerda-ambiente div,
+    .texto-direita-ambiente div {
+        flex: 1;
+    }
+
+    .texto-esquerda-ambiente img,
+    .texto-direita-ambiente img {
+        max-width: 50%;
+        height: auto;
+        flex: 0 0 auto;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #000000;
+        padding: 16px;
+        font-size: 0.9rem;
+    }
+
+    footer div {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+
+}

@@ -1,0 +1,26 @@
+PALETAS DE CORES
+
+A cor vermelha, ou Aka em japonês, faz uma referência ao Sol, que é considerado um símbolo muitíssimo valorizado pela nação japonesa.
+Os japoneses consideram o Sol como uma fonte de energia e vida para todas as culturas do mundo, mas, no Japão especificamente, seria a região onde ele nasce e é por isso que considerado o local de onde a vida é originada.
+Eles acreditam que o vermelho também remete à deusa Amaterasu, de quem é a descendência da família imperial japonesa. Então, ele caracteriza de uma vez só: a fonte da vida, o país e também o imperador.
+O vermelho também é uma cor ligada à sorte, isso vem desde muitos séculos atrás, com a cor sendo usada como sinal de proteção contra doenças e mau agouro.
+
+A cor branca, ou shiro em japonês, é considerada uma cor sagrada e divina. É o símbolo da pureza espiritual e física. Desde os tempos antigos, o imperador do Japão costumava se vestir com roupas brancas para os principais rituais do xintoísmo. O vestido de noiva e a cobertura para a cabeça no casamento xintoísta tradicional também são brancos.
+
+A cor preta, ou kuro, é tradicionalmente uma cor masculina no Japão. Foi frequentemente usada para a aula dos samurai e ainda é usado até hoje para trajes de casamento masculinos e para o festival dos meninos, ou Kodomo-no-hi. Os sacerdotes xintoístas usam “chapéus” pretos como símbolo da iluminação.
+
+Amarelo, ou kiiro em Japonês: estimula a fome e atrai a atenção dos consumidores. A cor amarela está associada ao otimismo, energia, felicidade e diversão. Pode ser considerada também a cor da amizade!
+
+fonts
+
+"Noto Sans JP": 
+
+"Noto Serif JP"
+
+"Merriweather"
+
+"Playfair Display"
+
+Títulos: Use "Playfair Display"
+
+Corpo do Texto: Use "Noto Sans JP" ou "Roboto"
